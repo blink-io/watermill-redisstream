@@ -3,7 +3,7 @@ package redisstream
 import (
 	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/pkg/errors"
-	"github.com/vmihailenco/msgpack"
+	"github.com/vmihailenco/msgpack/v5"
 )
 
 const UUIDHeaderKey = "_watermill_message_uuid"
